@@ -1,0 +1,8 @@
+<article>
+  <header>
+    <img [src]="image().src" [alt]="image().alt" />
+    <h2>{{ title() }}</h2>
+  </header>
+  <!-- 告訴Angula在哪呈現包裝內容 -->
+  <ng-content />
+</article>
